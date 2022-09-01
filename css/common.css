@@ -113,3 +113,20 @@ a:focus::before {
     font-weight: 700;
     font-size: 48px;
 }
+
+.divider {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.work-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #747474;
+}
+
+.work-claim {
+    font-size: 24px;
+    font-weight: 500;
+    color: #3C3C3C;
+}
