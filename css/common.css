@@ -107,3 +107,9 @@ a:focus::before {
     bottom: 3px;
     left: 0;
 }
+
+.portfolio-heading {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 48px;
+}
