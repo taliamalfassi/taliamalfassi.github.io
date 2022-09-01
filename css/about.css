@@ -21,7 +21,10 @@
     max-height: 510px;
 }
 
-.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:visited {
     background-color: var(--primary-color) !important;
     font-weight: 700;
 }
@@ -33,26 +36,28 @@
 }
 
 .resume-heading {
-    position : relative;
+    position: relative;
 }
 
 .resume-heading::after {
-    content : "";
-    position : absolute;
-    width : 53px;
-    height : 3px;
+    content: "";
+    position: absolute;
+    width: 53px;
+    height: 3px;
     background-color: var(--primary-color);
     bottom: 0;
     left: 0;
-  }  
+}
 
-  .no-padding-left {
-    padding-left: 0%!important;
-  }
+.no-padding-left {
+    padding-left: 0% !important;
+}
 
-  
+
 @media (max-width: 768px) {
-    .general-about, .general-resume {
+
+    .general-about,
+    .general-resume {
         padding-left: 8%;
     }
 }
