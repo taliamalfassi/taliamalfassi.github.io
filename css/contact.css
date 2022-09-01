@@ -49,5 +49,15 @@ hr {
     border-radius: 60px;
     box-shadow: 0 0 2px #888;
     padding: 0.5em 0.6em;
-  
-  }
+    margin: auto;
+}
+
+.container-logos {
+    max-width: 35%;
+    min-width: 236px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+}
