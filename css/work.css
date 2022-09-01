@@ -1,0 +1,18 @@
+.work-claim {
+    margin-top: 15%;
+    font-size: xx-large;
+}
+
+@media (max-width: 576px) {
+    .work-claim {
+        margin-top: 25%;
+        font-size: x-large;
+    }
+}
+
+.footer-image {
+    margin-top: 5%;
+    width: 100%;
+}
+
+html, body {margin: 0; height: 100%; overflow: hidden}

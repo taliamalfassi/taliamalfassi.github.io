@@ -1,0 +1,90 @@
+:root {
+    --primary-color: #D14000;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
+.primary-color-txt {
+    color: var(--primary-color);
+}
+
+body>.navbar .brand {
+    margin-left: 30px !important;
+    margin-top: 30px !important;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    padding: 20px 0 20px;
+    vertical-align: middle;
+}
+
+.navbar-nav a:hover,
+a:focus,
+a:active {
+    color: #999;
+    text-decoration: none;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    transition: color 0.1s, background-color 0.1s;
+}
+
+.navbar-nav a {
+    position: relative;
+    display: block;
+    padding: 16px 0;
+    margin: 0 12px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    text-transform: uppercase;
+    transition: color 0.1s, background-color 0.1s, padding 0.2s ease-in;
+}
+
+.navbar-nav a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: var(--primary-color);
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s, transform 0.2s ease-out;
+}
+
+.navbar-nav a:active::before {
+    background-color: var(--primary-color);
+}
+
+.navbar-nav a:hover::before,
+a:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
