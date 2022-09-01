@@ -88,3 +88,8 @@ a:focus::before {
     transform-origin: left top;
     transform: scale(1, 1);
 }
+
+.nav-link {
+    font-weight: 400;
+    color: #3C3C3C;
+}

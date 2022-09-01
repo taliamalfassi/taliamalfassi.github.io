@@ -1,6 +1,12 @@
 .work-claim {
     margin-top: 15%;
-    font-size: xx-large;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.work-link {
+    font-size: 20px;
+    font-weight: 400;
 }
 
 @media (max-width: 576px) {
