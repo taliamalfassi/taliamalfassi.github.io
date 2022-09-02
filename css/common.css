@@ -182,8 +182,19 @@ a:focus::before {
     justify-content: center;
 }
 
-.pain-point-subtitle {
+.portfolio-subtitle {
     color: var(--primary-color);
     font-size: 20px;
     font-weight: 700;
+}
+
+.paper-wireframe-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #747474;
+    text-justify: auto;
+}
+
+.interlined {
+    line-height: 30px;
 }
