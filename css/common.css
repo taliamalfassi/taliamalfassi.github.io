@@ -125,8 +125,65 @@ a:focus::before {
     color: #747474;
 }
 
+.work-text-bigger {
+    font-size: 18px;
+    font-weight: 400;
+    color: #747474;
+}
+
 .work-claim {
     font-size: 24px;
     font-weight: 500;
     color: #3C3C3C;
+}
+
+.underlined-heading {
+    font-weight: 700;
+    font-size: 22px;
+    z-index: 0;
+}
+
+.underlined-heading {
+    position: relative;
+}
+
+.underlined-heading::after {
+    content: "";
+    position: absolute;
+    width: 53px;
+    height: 3px;
+    background-color: var(--primary-color);
+    bottom: 0;
+    left: 0;
+}
+
+.work-heading {
+    font-weight: 600;
+    font-size: 34px;
+    color: var(--primary-color);
+}
+
+.pain-point-icon {
+    background: var(--primary-color);
+    border-radius: 50%;
+    width: 40px; 
+    height: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.pain-point-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pain-point-subtitle {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 700;
 }

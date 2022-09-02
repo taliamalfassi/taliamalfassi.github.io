@@ -29,26 +29,6 @@
     font-weight: 700;
 }
 
-.resume-heading {
-    font-weight: 700;
-    font-size: 22px;
-    z-index: 0;
-}
-
-.resume-heading {
-    position: relative;
-}
-
-.resume-heading::after {
-    content: "";
-    position: absolute;
-    width: 53px;
-    height: 3px;
-    background-color: var(--primary-color);
-    bottom: 0;
-    left: 0;
-}
-
 .no-padding-left {
     padding-left: 0% !important;
 }
