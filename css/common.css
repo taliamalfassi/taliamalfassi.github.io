@@ -198,3 +198,24 @@ a:focus::before {
 .interlined {
     line-height: 30px;
 }
+
+
+.usability-heading {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1E1E1E;
+}
+
+.upperlined {
+    position: relative;
+}
+
+.upperlined::before {
+    content: "";
+    position: absolute;
+    width: 53px;
+    height: 3px;
+    background-color: var(--primary-color);
+    bottom: 100%;
+    left: 0;
+}
