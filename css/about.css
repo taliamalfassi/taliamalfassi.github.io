@@ -41,3 +41,15 @@
         padding-left: 8%;
     }
 }
+
+.experience-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3C3C3C;
+}
+
+.experience-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #747474;
+}
