@@ -219,3 +219,9 @@ a:focus::before {
     bottom: 100%;
     left: 0;
 }
+
+.solution-heading {
+    font-size: 20px;
+    font-weight: 700;
+    color: #747474;
+}
