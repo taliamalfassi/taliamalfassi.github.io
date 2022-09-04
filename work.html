@@ -82,7 +82,13 @@
         </div>
     </div>
 
-    <img class="footer-image" src="./images/cover-portfolio 1.png" alt="Footer image portfolio">
+    <picture>
+        <source media="(max-width: 512px)" srcset="./images/cover-portfolio-428w.png">
+        <source media="(min-width: 513px)" srcset="./images/cover-portfolio-1024w.png">
+        <source media="(min-width: 1025px)" srcset="./images/cover-portfolio-1440w.png">
+        <img class="footer-image" 
+        src="./images/cover-portfolio-1440w.png" alt="Footer image portfolio">
+    </picture>
 
     <!-- Bootstrap JS bundle  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
