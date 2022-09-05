@@ -28,15 +28,6 @@
     padding-left: 0% !important;
 }
 
-
-@media (max-width: 768px) {
-
-    .general-about,
-    .general-resume {
-        padding-left: 8%;
-    }
-}
-
 .experience-title {
     font-size: 24px;
     font-weight: 700;
