@@ -188,6 +188,12 @@ a:focus::before {
     font-weight: 700;
 }
 
+.guggenheim-pain-point {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .paper-wireframe-text {
     font-size: 18px;
     font-weight: 400;
