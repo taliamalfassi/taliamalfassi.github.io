@@ -108,12 +108,6 @@ a:focus::before {
     left: 0;
 }
 
-.portfolio-heading {
-    color: var(--primary-color);
-    font-weight: 700;
-    font-size: 48px;
-}
-
 .divider {
     margin-left: 10px;
     margin-right: 10px;
@@ -157,12 +151,6 @@ a:focus::before {
     left: 0;
 }
 
-.work-heading {
-    font-weight: 600;
-    font-size: 34px;
-    color: var(--primary-color);
-}
-
 .pain-point-icon {
     background: var(--primary-color);
     border-radius: 50%;
@@ -182,7 +170,20 @@ a:focus::before {
     justify-content: center;
 }
 
-.portfolio-subtitle {
+.main-heading {
+    font-weight: 600;
+    font-size: 34px;
+    color: var(--primary-color);
+}
+
+
+.portfolio-heading {
+    color: var(--primary-color);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.pain-point-heading {
     color: var(--primary-color);
     font-size: 20px;
     font-weight: 700;
