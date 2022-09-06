@@ -154,11 +154,11 @@ a:focus::before {
 .pain-point-icon {
     background: var(--primary-color);
     border-radius: 50%;
-    width: 40px; 
+    width: 40px;
     height: 40px;
     color: #fff;
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
     font-size: 28px;
     font-weight: 600;
@@ -237,4 +237,24 @@ a:focus::before {
     pointer-events: none;
     cursor: default;
     opacity: 0.6;
-  }
+}
+
+
+
+@media (min-width: 1280px) {
+    .go-back-button {
+        position: fixed;
+        bottom: 4%;
+        left: 4%;
+    }
+}
+
+@media (max-width: 1279px) {
+    .go-back-button {
+        visibility: hidden;
+    }
+}
+
+.go-back-button {
+    cursor: pointer;
+}
