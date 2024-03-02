@@ -31,6 +31,10 @@ body {
     color: var(--primary-color);
 }
 
+.main-claim-bigger {
+    font-size: 30px;
+}
+
 body>.navbar .brand {
     margin-left: 30px !important;
     margin-top: 30px !important;
@@ -91,6 +95,7 @@ a:focus::before {
 
 .nav-link {
     font-weight: 400;
+    font-size: 20px;
     color: #3C3C3C;
 }
 
